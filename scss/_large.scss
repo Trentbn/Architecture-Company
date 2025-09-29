@@ -1,0 +1,16 @@
+header, nav, main {
+    max-width: 960px;
+    margin: auto;
+}
+
+nav {
+    ul {
+        display: flex;
+        justify-content:flex-end;
+        column-gap: $gutter;
+    }
+
+
+}
+
+/* NAVIGATION STUFF GOES HERE  */

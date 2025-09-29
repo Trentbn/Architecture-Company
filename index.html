@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Navigation Example</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/styles.min.css">
+
+<!-- Google Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sniglet:wght@400;800&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+<div id="headerWrapper">
+	<header>
+        <img src="images/logo1x.png" alt="logo" srcset="images/Logo1x.png 1x, images/Logo2x.png 2x, images/Logo3x.png 3x" width="45" height="50">
+		<span>Architecture Company</span>
+	</header>
+</div><!-- end header wrapper -->
+
+    
+    
+<div id="navWrapper">
+    <nav>
+        <ul>
+            <li><a class="active"href="#">Learn</a></li>
+            <li><a href="#">Practice</a></li>
+            <li><a href="#">Implement</a></li>
+        </ul>
+    </nav>
+</div> <!-- end nav wrapper -->
+
+<div id="mainWrapper">
+    <main>
+        <picture>
+            <source media="(max-width: 700px)" srcset="images/hero-small.webp">
+            <source media="(max-width: 1024px)" srcset="images/hero-medium.webp">
+            <img src="images/hero-large.webp" alt="Buildings" width="16" height="9">
+        </picture>
+
+        <h1>My Video With Captions</h1>
+        <video  controls>
+            <source src="media/trimmed_hb.mp4" type="video/mp4" />
+            <source src="media/trimmed_hb.webm" type="video/webm" />
+            <track
+              label="English"
+              kind="subtitles"
+              srclang="en"
+              src="media/trent_en.vtt"
+              default />
+            <track
+              label="Español"
+              kind="subtitles"
+              srclang="es"
+              src="media/trent_es.vtt" />
+          </video>
+          <details>
+            <summary>Video Transcript</summary>
+             <p>Hi, this is my dog Archie. My name is Trent. We own the Architecture Company. Archie here is the... Part owner, I am the full owner. This is where he hangs out, he loves this couch, it's where he works from. And yeah, we uh, we love architecture, and figuring out how to put captions on videos. So, this has been great, I hope you enjoy our site. Thanks for visiting</p>
+        </details>
+    </main>
+</div><!-- end main wrapper -->
+    
+<div id="footerWrapper">
+    <footer>
+        <p>Copyright &copy; Trent Nelson &bull; 2025 Architecture Company Inc. All rights reserved. 
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> | <a href="#">Clients</a></p>
+    </footer>
+</div> <!-- end footer wrapper -->
+   
+</body>
+</html> 

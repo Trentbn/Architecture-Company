@@ -1,0 +1,20 @@
+/* NAVIGATION STUFF GOES HERE  */
+nav {
+    margin: 0;
+    ul {
+        display: flex;
+        justify-content:space-evenly;
+        column-gap: $gutter;
+    }
+
+    li {
+        border-bottom: none;
+    }
+
+    li:hover {
+        text-decoration: underline;
+        text-decoration-style: wavy;
+    }
+    
+
+}
